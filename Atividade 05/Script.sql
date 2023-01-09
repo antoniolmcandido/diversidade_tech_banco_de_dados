@@ -35,7 +35,7 @@ select * from florestas
 -- consultando a view (tempo 0ms)
 select * from vw_florestas
 
--- sonsulta normal (tempo 1ms)
+-- consulta normal (tempo 1ms)
 select * from florestas
 
 -------------------------------
@@ -48,5 +48,5 @@ select * from florestas
 -- consultando a view materializada (tempo 1ms)
 select * from vwm_florestas
 
--- sonsulta normal (tempo 1ms)
+-- consulta normal (tempo 1ms)
 select * from florestas
