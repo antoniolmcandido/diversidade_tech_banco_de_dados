@@ -2,17 +2,11 @@ select * from florestas
 
 -- Questão 01
 
-select municipio from florestas 
-intersect
-select municipio from florestas where area_ha > 200000
-order by municipio 
+select municipio  from florestas where area_ha > 200000
 
 -- Questão 02
 
-select municipio, estado_sigla from florestas 
-intersect
 select municipio, estado_sigla from florestas where area_ha > 150000
-order by municipio 
 
 -- Questão 03
 
@@ -20,10 +14,7 @@ ANULADA
 
 -- Questão 04
 
-select municipio, especie from florestas 
-intersect
-select municipio, especie from florestas where area_ha > 30000 and estado = 'Bahia'
-order by municipio
+select municipio, especie  from florestas where area_ha > 30000 and uf = 'BA'
 
 -- Questão 05
 
